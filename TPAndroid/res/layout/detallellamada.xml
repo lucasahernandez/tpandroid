@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/android3"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iconoMensajeD"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5px"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="5px"
+            android:src="@drawable/viper32" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txtPersonaCallsDetalle"
+            style="@+style/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5px"
+            android:gravity="center_vertical"
+            android:text="Perez, Juan"
+            android:textColor="@color/white"
+            android:textColorHint="@color/black" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtFechaCallsDetalle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5px"
+            android:gravity="center_vertical"
+            android:text="01/01/2001"
+            android:textColor="@color/white"
+            android:textColorHint="@color/black" />
+        
+        <TextView
+            android:id="@+id/txtDuracionCallsDetalle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5px"
+            android:gravity="center_vertical"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textColorHint="@color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>

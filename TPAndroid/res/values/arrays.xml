@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="contactOrder">
+		<item>@string/Ascendent</item>
+		<item>@string/Descendent</item>
+	</string-array>
+	<string-array name="msgOrder">
+		<item>@string/Ascendent</item>
+		<item>@string/Descendent</item>
+	</string-array>
+	<string-array name="callsOrder">
+		<item>@string/Ascendent</item>
+		<item>@string/Descendent</item>
+	</string-array>
+	<string-array name="msgWebOrder">
+		<item>@string/Ascendent</item>
+		<item>@string/Descendent</item>
+	</string-array>
+	<string-array name="callsFilter">
+		<item>@string/all</item>
+		<item>@string/inbound</item>
+		<item>@string/outbound</item>
+		<item>@string/missed</item>
+	</string-array>
+	<string-array name="msgFilter">
+		<item>@string/all</item>
+		<item>@string/inbound</item>
+		<item>@string/outbound</item>
+	</string-array>
+	<string-array name="msgWebFilter">
+		<item>@string/all</item>
+		<item>@string/inbound</item>
+		<item>@string/outbound</item>
+	</string-array>
+	
+    <string-array name="values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>        
+    </string-array>	
+	
+</resources>

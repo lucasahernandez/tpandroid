@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory
+		android:title="@string/order">
+ 
+        <ListPreference
+                android:title="@string/orderContact"
+                android:summary="@string/orderContactSummary"
+                android:key="lstContactsOrder"
+                android:defaultValue="1"
+                android:entries="@array/contactOrder"
+                android:entryValues="@array/values" />
+        	<ListPreference
+                android:title="@string/orderCalls"
+                android:summary="@string/orderCallsSummary"
+                android:key="lstCallsOrder"
+                android:defaultValue="1"
+                android:entries="@array/callsOrder"
+                android:entryValues="@array/values" />
+	<ListPreference
+                android:title="@string/orderMsg"
+                android:summary="@string/orderMsgSummary"
+                android:key="lstMsgOrder"
+                android:defaultValue="1"
+                android:entries="@array/msgOrder"
+                android:entryValues="@array/values" />
+	<ListPreference
+                android:title="@string/orderMsgWeb"
+                android:summary="@string/orderMsgWebSummary"
+                android:key="lstMsgWebOrder"
+                android:defaultValue="1"
+                android:entries="@array/msgWebOrder"
+                android:entryValues="@array/values" />
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/filter">
+ 		        <ListPreference
+                android:title="@string/filterCalls"
+                android:summary="@string/filterCallsSummary"
+                android:key="lstCallsFilter"
+                android:defaultValue="1"
+                android:entries="@array/callsFilter"
+                android:entryValues="@array/values" />
+        <ListPreference
+                android:title="@string/filterMsg"
+                android:summary="@string/filterMsgSummary"
+                android:key="lstMsgFilter"
+                android:defaultValue="1"
+                android:entries="@array/msgFilter"
+                android:entryValues="@array/values" />
+        <ListPreference
+                android:title="@string/filterMsgWeb"
+                android:summary="@string/filterMsgWebSummary"
+                android:key="lstMsgWebFilter"
+                android:defaultValue="1"
+                android:entries="@array/msgWebFilter"
+                android:entryValues="@array/values" />
+
+	</PreferenceCategory>    
+
+</PreferenceScreen>

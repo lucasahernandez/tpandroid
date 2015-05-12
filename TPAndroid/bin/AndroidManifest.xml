@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.tdam.tpa"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".InicioActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+	<activity android:name=".EstructuraTabActivity"></activity>
+	<activity android:name=".ContactoListaActivity" android:windowSoftInputMode="stateHidden"></activity>
+	<activity android:name=".ContactoDetalleActivity"></activity>
+	<activity android:name=".MensajeListaActivity"></activity>
+	<activity android:name=".MensajeDetalleActivity"></activity>
+	<activity android:name=".LlamadaListaActivity"></activity>
+	<activity android:name=".LlamadaDetalleActivity"></activity>
+	<activity android:name=".MensajeWebListaActivity"></activity>
+	<activity android:name=".MensajeWebDetalleActivity"></activity>
+	<activity android:name=".UsuarioPreferencias"></activity>
+	<activity android:name=".UserWebService"></activity>
+	<activity android:name=".EstadisticasActivity"></activity>
+	<activity android:name=".ConectividadListaActivity"></activity>
+	<service android:name=".MensajeWebServicio"></service>
+	<receiver android:name=".ConectividadReceiver" >
+            <intent-filter>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" >
+                </action>
+                <action android:name="android.net.conn.BACKGROUND_DATA_SETTING_CHANGED" >
+                </action>
+                <action android:name="android.net.wifi.STATE_CHANGE" >
+                </action>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.supplicant.CONNECTION_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+</application>
+
+<uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.WRITE_CONTACTS"></uses-permission>
+<uses-permission android:name="android.permission.READ_SMS"></uses-permission>
+<uses-permission android:name="android.permission.WRITE_OWNER_DATA"></uses-permission>
+<uses-permission android:name="android.permission.WRITE_SMS"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest> 
